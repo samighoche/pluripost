@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49460D841AD1E8DD00E36A49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49460D831AD1E8DD00E36A49 /* AppDelegate.swift */; };
+		49460D861AD1E8DD00E36A49 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49460D851AD1E8DD00E36A49 /* LoginViewController.swift */; };
+		49460D891AD1E8DD00E36A49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49460D871AD1E8DD00E36A49 /* Main.storyboard */; };
+		49460D8B1AD1E8DD00E36A49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49460D8A1AD1E8DD00E36A49 /* Images.xcassets */; };
+		49460D8E1AD1E8DD00E36A49 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49460D8C1AD1E8DD00E36A49 /* LaunchScreen.xib */; };
+		49460D9A1AD1E8DE00E36A49 /* PluriPostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49460D991AD1E8DE00E36A49 /* PluriPostTests.swift */; };
+		49460DA61AD1F0C700E36A49 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49460DA51AD1F0C700E36A49 /* HomeViewController.swift */; };
+		49460DA81AD1F93200E36A49 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49460DA71AD1F93200E36A49 /* TabBarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49460D941AD1E8DD00E36A49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49460D761AD1E8DD00E36A49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49460D7D1AD1E8DD00E36A49;
+			remoteInfo = PluriPost;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49460D7E1AD1E8DD00E36A49 /* PluriPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PluriPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49460D821AD1E8DD00E36A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49460D831AD1E8DD00E36A49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49460D851AD1E8DD00E36A49 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		49460D881AD1E8DD00E36A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49460D8A1AD1E8DD00E36A49 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49460D8D1AD1E8DD00E36A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		49460D931AD1E8DD00E36A49 /* PluriPostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PluriPostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49460D981AD1E8DE00E36A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49460D991AD1E8DE00E36A49 /* PluriPostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluriPostTests.swift; sourceTree = "<group>"; };
+		49460DA51AD1F0C700E36A49 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		49460DA71AD1F93200E36A49 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49460D7B1AD1E8DD00E36A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49460D901AD1E8DD00E36A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49460D751AD1E8DD00E36A49 = {
+			isa = PBXGroup;
+			children = (
+				49460D801AD1E8DD00E36A49 /* PluriPost */,
+				49460D961AD1E8DE00E36A49 /* PluriPostTests */,
+				49460D7F1AD1E8DD00E36A49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49460D7F1AD1E8DD00E36A49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49460D7E1AD1E8DD00E36A49 /* PluriPost.app */,
+				49460D931AD1E8DD00E36A49 /* PluriPostTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49460D801AD1E8DD00E36A49 /* PluriPost */ = {
+			isa = PBXGroup;
+			children = (
+				49460D831AD1E8DD00E36A49 /* AppDelegate.swift */,
+				49460D851AD1E8DD00E36A49 /* LoginViewController.swift */,
+				49460DA51AD1F0C700E36A49 /* HomeViewController.swift */,
+				49460D871AD1E8DD00E36A49 /* Main.storyboard */,
+				49460D8A1AD1E8DD00E36A49 /* Images.xcassets */,
+				49460D8C1AD1E8DD00E36A49 /* LaunchScreen.xib */,
+				49460DA71AD1F93200E36A49 /* TabBarViewController.swift */,
+				49460D811AD1E8DD00E36A49 /* Supporting Files */,
+			);
+			path = PluriPost;
+			sourceTree = "<group>";
+		};
+		49460D811AD1E8DD00E36A49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49460D821AD1E8DD00E36A49 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49460D961AD1E8DE00E36A49 /* PluriPostTests */ = {
+			isa = PBXGroup;
+			children = (
+				49460D991AD1E8DE00E36A49 /* PluriPostTests.swift */,
+				49460D971AD1E8DE00E36A49 /* Supporting Files */,
+			);
+			path = PluriPostTests;
+			sourceTree = "<group>";
+		};
+		49460D971AD1E8DE00E36A49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49460D981AD1E8DE00E36A49 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49460D7D1AD1E8DD00E36A49 /* PluriPost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49460D9D1AD1E8DE00E36A49 /* Build configuration list for PBXNativeTarget "PluriPost" */;
+			buildPhases = (
+				49460D7A1AD1E8DD00E36A49 /* Sources */,
+				49460D7B1AD1E8DD00E36A49 /* Frameworks */,
+				49460D7C1AD1E8DD00E36A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PluriPost;
+			productName = PluriPost;
+			productReference = 49460D7E1AD1E8DD00E36A49 /* PluriPost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49460D921AD1E8DD00E36A49 /* PluriPostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49460DA01AD1E8DE00E36A49 /* Build configuration list for PBXNativeTarget "PluriPostTests" */;
+			buildPhases = (
+				49460D8F1AD1E8DD00E36A49 /* Sources */,
+				49460D901AD1E8DD00E36A49 /* Frameworks */,
+				49460D911AD1E8DD00E36A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49460D951AD1E8DD00E36A49 /* PBXTargetDependency */,
+			);
+			name = PluriPostTests;
+			productName = PluriPostTests;
+			productReference = 49460D931AD1E8DD00E36A49 /* PluriPostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49460D761AD1E8DD00E36A49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = PluriPost;
+				TargetAttributes = {
+					49460D7D1AD1E8DD00E36A49 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					49460D921AD1E8DD00E36A49 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 49460D7D1AD1E8DD00E36A49;
+					};
+				};
+			};
+			buildConfigurationList = 49460D791AD1E8DD00E36A49 /* Build configuration list for PBXProject "PluriPost" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49460D751AD1E8DD00E36A49;
+			productRefGroup = 49460D7F1AD1E8DD00E36A49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49460D7D1AD1E8DD00E36A49 /* PluriPost */,
+				49460D921AD1E8DD00E36A49 /* PluriPostTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49460D7C1AD1E8DD00E36A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49460D891AD1E8DD00E36A49 /* Main.storyboard in Resources */,
+				49460D8E1AD1E8DD00E36A49 /* LaunchScreen.xib in Resources */,
+				49460D8B1AD1E8DD00E36A49 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49460D911AD1E8DD00E36A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49460D7A1AD1E8DD00E36A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49460DA81AD1F93200E36A49 /* TabBarViewController.swift in Sources */,
+				49460D861AD1E8DD00E36A49 /* LoginViewController.swift in Sources */,
+				49460D841AD1E8DD00E36A49 /* AppDelegate.swift in Sources */,
+				49460DA61AD1F0C700E36A49 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49460D8F1AD1E8DD00E36A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49460D9A1AD1E8DE00E36A49 /* PluriPostTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49460D951AD1E8DD00E36A49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49460D7D1AD1E8DD00E36A49 /* PluriPost */;
+			targetProxy = 49460D941AD1E8DD00E36A49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49460D871AD1E8DD00E36A49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49460D881AD1E8DD00E36A49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49460D8C1AD1E8DD00E36A49 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49460D8D1AD1E8DD00E36A49 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49460D9B1AD1E8DE00E36A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49460D9C1AD1E8DE00E36A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49460D9E1AD1E8DE00E36A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PluriPost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49460D9F1AD1E8DE00E36A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PluriPost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49460DA11AD1E8DE00E36A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PluriPostTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PluriPost.app/PluriPost";
+			};
+			name = Debug;
+		};
+		49460DA21AD1E8DE00E36A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PluriPostTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PluriPost.app/PluriPost";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49460D791AD1E8DD00E36A49 /* Build configuration list for PBXProject "PluriPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49460D9B1AD1E8DE00E36A49 /* Debug */,
+				49460D9C1AD1E8DE00E36A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49460D9D1AD1E8DE00E36A49 /* Build configuration list for PBXNativeTarget "PluriPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49460D9E1AD1E8DE00E36A49 /* Debug */,
+				49460D9F1AD1E8DE00E36A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49460DA01AD1E8DE00E36A49 /* Build configuration list for PBXNativeTarget "PluriPostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49460DA11AD1E8DE00E36A49 /* Debug */,
+				49460DA21AD1E8DE00E36A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49460D761AD1E8DD00E36A49 /* Project object */;
+}
