@@ -136,9 +136,11 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="COn-Q5-xhk">
-                                <rect key="frame" x="153" y="490" width="69" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="COn-Q5-xhk">
+                                <rect key="frame" x="33" y="476" width="308" height="96"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
                                 <state key="normal" title="New Card">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -272,11 +274,16 @@
         <scene sceneID="aic-Fw-haJ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bQT-yD-hI5" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Projects" id="hIp-XE-Xqm"/>
+                    <tabBarItem key="tabBarItem" title="Projects" image="projectsIcon" id="hIp-XE-Xqm"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="eIl-JW-Mvy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.17647058823529413" green="0.46274509803921571" blue="0.9882352941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -291,7 +298,7 @@
         <scene sceneID="ntT-lc-Ss5">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xfF-oQ-744" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Received Cards" id="81w-xZ-5QT"/>
+                    <tabBarItem key="tabBarItem" title="Received Cards" image="receivedIcon" id="81w-xZ-5QT"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="izC-LC-zNd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -338,4 +345,8 @@
             <point key="canvasLocation" x="1794.5" y="-1386.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="projectsIcon" width="24" height="21"/>
+        <image name="receivedIcon" width="24" height="28"/>
+    </resources>
 </document>
