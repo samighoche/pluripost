@@ -15,6 +15,10 @@
 		49460D9A1AD1E8DE00E36A49 /* PluriPostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49460D991AD1E8DE00E36A49 /* PluriPostTests.swift */; };
 		49460DA61AD1F0C700E36A49 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49460DA51AD1F0C700E36A49 /* HomeViewController.swift */; };
 		49460DA81AD1F93200E36A49 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49460DA71AD1F93200E36A49 /* TabBarViewController.swift */; };
+		49AA02EE1AD37F7000E4011B /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AA02ED1AD37F7000E4011B /* CardCollectionViewCell.swift */; };
+		49AA02F01AD37FDC00E4011B /* PickThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AA02EF1AD37FDC00E4011B /* PickThemeViewController.swift */; };
+		49AA02F21AD3B30700E4011B /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AA02F11AD3B30700E4011B /* EditorViewController.swift */; };
+		49FAF1AB1AD35167004262B0 /* SelectYourCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FAF1AA1AD35167004262B0 /* SelectYourCardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		49460D991AD1E8DE00E36A49 /* PluriPostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluriPostTests.swift; sourceTree = "<group>"; };
 		49460DA51AD1F0C700E36A49 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		49460DA71AD1F93200E36A49 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		49AA02ED1AD37F7000E4011B /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		49AA02EF1AD37FDC00E4011B /* PickThemeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickThemeViewController.swift; sourceTree = "<group>"; };
+		49AA02F11AD3B30700E4011B /* EditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
+		49FAF1AA1AD35167004262B0 /* SelectYourCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectYourCardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +92,14 @@
 				49460D831AD1E8DD00E36A49 /* AppDelegate.swift */,
 				49460D851AD1E8DD00E36A49 /* LoginViewController.swift */,
 				49460DA51AD1F0C700E36A49 /* HomeViewController.swift */,
+				49460DA71AD1F93200E36A49 /* TabBarViewController.swift */,
+				49AA02ED1AD37F7000E4011B /* CardCollectionViewCell.swift */,
+				49FAF1AA1AD35167004262B0 /* SelectYourCardViewController.swift */,
+				49AA02EF1AD37FDC00E4011B /* PickThemeViewController.swift */,
 				49460D871AD1E8DD00E36A49 /* Main.storyboard */,
 				49460D8A1AD1E8DD00E36A49 /* Images.xcassets */,
+				49AA02F11AD3B30700E4011B /* EditorViewController.swift */,
 				49460D8C1AD1E8DD00E36A49 /* LaunchScreen.xib */,
-				49460DA71AD1F93200E36A49 /* TabBarViewController.swift */,
 				49460D811AD1E8DD00E36A49 /* Supporting Files */,
 			);
 			path = PluriPost;
@@ -219,8 +231,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				49460DA81AD1F93200E36A49 /* TabBarViewController.swift in Sources */,
+				49FAF1AB1AD35167004262B0 /* SelectYourCardViewController.swift in Sources */,
+				49AA02F01AD37FDC00E4011B /* PickThemeViewController.swift in Sources */,
+				49AA02F21AD3B30700E4011B /* EditorViewController.swift in Sources */,
 				49460D861AD1E8DD00E36A49 /* LoginViewController.swift in Sources */,
 				49460D841AD1E8DD00E36A49 /* AppDelegate.swift in Sources */,
+				49AA02EE1AD37F7000E4011B /* CardCollectionViewCell.swift in Sources */,
 				49460DA61AD1F0C700E36A49 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +360,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Marc/Desktop/CS179,
+					Local/FacebookSDK,
+				);
 				INFOPLIST_FILE = PluriPost/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,6 +375,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Marc/Desktop/CS179,
+					Local/FacebookSDK,
+				);
 				INFOPLIST_FILE = PluriPost/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,6 +439,7 @@
 				49460D9F1AD1E8DE00E36A49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49460DA01AD1E8DE00E36A49 /* Build configuration list for PBXNativeTarget "PluriPostTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +448,7 @@
 				49460DA21AD1E8DE00E36A49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
