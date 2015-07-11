@@ -11,4 +11,5 @@ import UIKit
 class CardCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var cardImageView: UIImageView!
+    
 }

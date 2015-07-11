@@ -13,9 +13,59 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        var user1 : user = user()
+        user1.name = "Andrew Malek"
+        user1.network = "Harvard"
+        user1.userImageName = "andrew"
+        
+        var user2 : user = user()
+        user2.name = "Dayne Davis"
+        user2.network = "Harvard"
+        user2.userImageName = "dayne"
+        
+        var user3 : user = user()
+        user3.name = "Krzysztof Gajos"
+        user3.network = "Harvard"
+        user3.userImageName = "gajos"
+        
+        var user4 : user = user()
+        user4.name = "Marc Abousleiman"
+        user4.network = "Harvard"
+        user4.userImageName = "marc"
+        
+        var user5 : user = user()
+        user5.name = "Rish Mukherji"
+        user5.network = "Harvard"
+        user5.userImageName = "rish"
+        
+        var user6 : user = user()
+        user6.name = "Ryley Reynolds"
+        user6.network = "Harvard"
+        user6.userImageName = "ryley"
+        
+        var user7 : user = user()
+        user7.name = "Sabrina Mohamed"
+        user7.network = "Harvard"
+        user7.userImageName = "sabrina"
+        
+        var user8 : user = user()
+        user8.name = "Sami Ghoche"
+        user8.network = "Harvard"
+        user8.userImageName = "sami"
+    
+        var user9 : user = user()
+        user9.name = "Winston Boucher"
+        user9.network = "Harvard"
+        user9.userImageName = "winston"
+
+        var users: NSMutableArray = [NSKeyedArchiver.archivedDataWithRootObject(user1),NSKeyedArchiver.archivedDataWithRootObject(user2),NSKeyedArchiver.archivedDataWithRootObject(user3),NSKeyedArchiver.archivedDataWithRootObject(user4),NSKeyedArchiver.archivedDataWithRootObject(user5),NSKeyedArchiver.archivedDataWithRootObject(user6),NSKeyedArchiver.archivedDataWithRootObject(user7),NSKeyedArchiver.archivedDataWithRootObject(user8),NSKeyedArchiver.archivedDataWithRootObject(user9)]
+        
+        let defaults = NSUserDefaults.standardUserDefaults()
+        defaults.setObject(users, forKey: "users")
+        
         return true
     }
 
@@ -40,7 +90,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
 }
 

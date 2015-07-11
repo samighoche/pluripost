@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		493B529B1AF19B7B00A0C212 /* XmasDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493B529A1AF19B7B00A0C212 /* XmasDashboardViewController.swift */; };
+		493B529D1AF1B56800A0C212 /* XmasEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493B529C1AF1B56800A0C212 /* XmasEditorViewController.swift */; };
 		49460D841AD1E8DD00E36A49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49460D831AD1E8DD00E36A49 /* AppDelegate.swift */; };
 		49460D861AD1E8DD00E36A49 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49460D851AD1E8DD00E36A49 /* LoginViewController.swift */; };
 		49460D891AD1E8DD00E36A49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49460D871AD1E8DD00E36A49 /* Main.storyboard */; };
@@ -15,6 +17,16 @@
 		49460D9A1AD1E8DE00E36A49 /* PluriPostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49460D991AD1E8DE00E36A49 /* PluriPostTests.swift */; };
 		49460DA61AD1F0C700E36A49 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49460DA51AD1F0C700E36A49 /* HomeViewController.swift */; };
 		49460DA81AD1F93200E36A49 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49460DA71AD1F93200E36A49 /* TabBarViewController.swift */; };
+		494AD3D01AE8ADA100FAF5FD /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494AD3CF1AE8ADA100FAF5FD /* VideoView.swift */; };
+		494FBBF41AE0A59C00A047C5 /* InviteFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494FBBF31AE0A59C00A047C5 /* InviteFriendsViewController.swift */; };
+		494FBBF61AE0AAA900A047C5 /* friendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494FBBF51AE0AAA900A047C5 /* friendsCell.swift */; };
+		494FBBF81AE0ADCE00A047C5 /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494FBBF71AE0ADCE00A047C5 /* UserCollectionViewCell.swift */; };
+		494FBBFA1AE0B3B400A047C5 /* DashboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494FBBF91AE0B3B400A047C5 /* DashboardTableViewController.swift */; };
+		494FBBFC1AE0C9B100A047C5 /* dashboardUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494FBBFB1AE0C9B100A047C5 /* dashboardUserCell.swift */; };
+		4975D7C51ADF96080040802B /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975D7C41ADF96080040802B /* user.swift */; };
+		4975D7CB1AE072180040802B /* userCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975D7CA1AE072180040802B /* userCell.swift */; };
+		498389281AF578C00085681A /* GWSEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498389271AF578C00085681A /* GWSEditorViewController.swift */; };
+		4983892A1AF5C5330085681A /* GWSDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498389291AF5C5330085681A /* GWSDashboardViewController.swift */; };
 		49AA02EE1AD37F7000E4011B /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AA02ED1AD37F7000E4011B /* CardCollectionViewCell.swift */; };
 		49AA02F01AD37FDC00E4011B /* PickThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AA02EF1AD37FDC00E4011B /* PickThemeViewController.swift */; };
 		49AA02F21AD3B30700E4011B /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AA02F11AD3B30700E4011B /* EditorViewController.swift */; };
@@ -32,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		493B529A1AF19B7B00A0C212 /* XmasDashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmasDashboardViewController.swift; sourceTree = "<group>"; };
+		493B529C1AF1B56800A0C212 /* XmasEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmasEditorViewController.swift; sourceTree = "<group>"; };
 		49460D7E1AD1E8DD00E36A49 /* PluriPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PluriPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49460D821AD1E8DD00E36A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49460D831AD1E8DD00E36A49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +58,16 @@
 		49460D991AD1E8DE00E36A49 /* PluriPostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluriPostTests.swift; sourceTree = "<group>"; };
 		49460DA51AD1F0C700E36A49 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		49460DA71AD1F93200E36A49 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		494AD3CF1AE8ADA100FAF5FD /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		494FBBF31AE0A59C00A047C5 /* InviteFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteFriendsViewController.swift; sourceTree = "<group>"; };
+		494FBBF51AE0AAA900A047C5 /* friendsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = friendsCell.swift; sourceTree = "<group>"; };
+		494FBBF71AE0ADCE00A047C5 /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
+		494FBBF91AE0B3B400A047C5 /* DashboardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTableViewController.swift; sourceTree = "<group>"; };
+		494FBBFB1AE0C9B100A047C5 /* dashboardUserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dashboardUserCell.swift; sourceTree = "<group>"; };
+		4975D7C41ADF96080040802B /* user.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		4975D7CA1AE072180040802B /* userCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userCell.swift; sourceTree = "<group>"; };
+		498389271AF578C00085681A /* GWSEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GWSEditorViewController.swift; sourceTree = "<group>"; };
+		498389291AF5C5330085681A /* GWSDashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GWSDashboardViewController.swift; sourceTree = "<group>"; };
 		49AA02ED1AD37F7000E4011B /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 		49AA02EF1AD37FDC00E4011B /* PickThemeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickThemeViewController.swift; sourceTree = "<group>"; };
 		49AA02F11AD3B30700E4011B /* EditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
@@ -94,11 +118,23 @@
 				49460DA51AD1F0C700E36A49 /* HomeViewController.swift */,
 				49460DA71AD1F93200E36A49 /* TabBarViewController.swift */,
 				49AA02ED1AD37F7000E4011B /* CardCollectionViewCell.swift */,
+				494FBBF71AE0ADCE00A047C5 /* UserCollectionViewCell.swift */,
 				49FAF1AA1AD35167004262B0 /* SelectYourCardViewController.swift */,
 				49AA02EF1AD37FDC00E4011B /* PickThemeViewController.swift */,
 				49460D871AD1E8DD00E36A49 /* Main.storyboard */,
+				494FBBFB1AE0C9B100A047C5 /* dashboardUserCell.swift */,
+				493B529A1AF19B7B00A0C212 /* XmasDashboardViewController.swift */,
+				494FBBF91AE0B3B400A047C5 /* DashboardTableViewController.swift */,
+				494FBBF31AE0A59C00A047C5 /* InviteFriendsViewController.swift */,
+				4975D7CA1AE072180040802B /* userCell.swift */,
+				494FBBF51AE0AAA900A047C5 /* friendsCell.swift */,
+				4975D7C41ADF96080040802B /* user.swift */,
 				49460D8A1AD1E8DD00E36A49 /* Images.xcassets */,
 				49AA02F11AD3B30700E4011B /* EditorViewController.swift */,
+				493B529C1AF1B56800A0C212 /* XmasEditorViewController.swift */,
+				498389271AF578C00085681A /* GWSEditorViewController.swift */,
+				498389291AF5C5330085681A /* GWSDashboardViewController.swift */,
+				494AD3CF1AE8ADA100FAF5FD /* VideoView.swift */,
 				49460D8C1AD1E8DD00E36A49 /* LaunchScreen.xib */,
 				49460D811AD1E8DD00E36A49 /* Supporting Files */,
 			);
@@ -179,6 +215,7 @@
 				TargetAttributes = {
 					49460D7D1AD1E8DD00E36A49 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = DWSZD46S2H;
 					};
 					49460D921AD1E8DD00E36A49 = {
 						CreatedOnToolsVersion = 6.2;
@@ -230,14 +267,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494FBBFA1AE0B3B400A047C5 /* DashboardTableViewController.swift in Sources */,
 				49460DA81AD1F93200E36A49 /* TabBarViewController.swift in Sources */,
 				49FAF1AB1AD35167004262B0 /* SelectYourCardViewController.swift in Sources */,
+				494FBBF41AE0A59C00A047C5 /* InviteFriendsViewController.swift in Sources */,
+				498389281AF578C00085681A /* GWSEditorViewController.swift in Sources */,
+				493B529D1AF1B56800A0C212 /* XmasEditorViewController.swift in Sources */,
+				4975D7CB1AE072180040802B /* userCell.swift in Sources */,
+				494FBBFC1AE0C9B100A047C5 /* dashboardUserCell.swift in Sources */,
 				49AA02F01AD37FDC00E4011B /* PickThemeViewController.swift in Sources */,
 				49AA02F21AD3B30700E4011B /* EditorViewController.swift in Sources */,
+				4983892A1AF5C5330085681A /* GWSDashboardViewController.swift in Sources */,
 				49460D861AD1E8DD00E36A49 /* LoginViewController.swift in Sources */,
+				4975D7C51ADF96080040802B /* user.swift in Sources */,
 				49460D841AD1E8DD00E36A49 /* AppDelegate.swift in Sources */,
+				493B529B1AF19B7B00A0C212 /* XmasDashboardViewController.swift in Sources */,
 				49AA02EE1AD37F7000E4011B /* CardCollectionViewCell.swift in Sources */,
+				494AD3D01AE8ADA100FAF5FD /* VideoView.swift in Sources */,
 				49460DA61AD1F0C700E36A49 /* HomeViewController.swift in Sources */,
+				494FBBF61AE0AAA900A047C5 /* friendsCell.swift in Sources */,
+				494FBBF81AE0ADCE00A047C5 /* UserCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,14 +409,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Marc/Desktop/CS179,
 					Local/FacebookSDK,
 				);
 				INFOPLIST_FILE = PluriPost/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3370e485-ed35-4295-b942-3d4e149d2a9b";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -375,14 +429,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Marc/Desktop/CS179,
 					Local/FacebookSDK,
 				);
 				INFOPLIST_FILE = PluriPost/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3370e485-ed35-4295-b942-3d4e149d2a9b";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
